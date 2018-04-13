@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        id        = "com.practicaltarot.android"
+        version   = "1.0.0">
+
+    <name>Practical Tarot Reading</name>
+
+    <description>
+        Practical Tarot Reading is an app that lets you to use the Tarot directly from your device without a physical card deck.
+    </description>
+
+    <author href="https://github.com/pierremacedo" email="pierremacedodev@gmail.com">
+        Pierre Macedo
+    </author>
+
+
+    <!-- Define app icon for each platform. -->
+    <icon src="icon.png" />
+    <icon src="icons/ldpi.png" platform="android" qualifier="ldpi" />
+    <icon src="icons/mdpi.png" platform="android" qualifier="mdpi" />
+    <icon src="icons/hdpi.png" platform="android" qualifier="hdpi" />
+    <icon src="icons/xhdpi.png" platform="android" qualifier="xhdpi" />
+    <icon src="icons/xxhdpi.png" platform="android" qualifier="xxhdpi" />
+    <icon src="icons/xxxhdpi.png" platform="android" qualifier="xxxhdpi" />
+    
+
+    <!-- Define app splash screen for each platform. -->
+    <splash src="splash.png" />
+    <splash src="splashs/ldpi.png" platform="android" qualifier="ldpi" />
+    <splash src="splashs/mdpi.png" platform="android" qualifier="mdpi" />
+    <splash src="splashs/hdpi.png" platform="android" qualifier="hdpi" />
+    <splash src="splashs/xhdpi.png" platform="android" qualifier="xhdpi" />
+    <splash src="splashs/xxhdpi.png" platform="android" qualifier="xxhdpi" />
+    <splash src="splashs/xxxhdpi.png" platform="android" qualifier="xxxhdpi" />
+    <splash src="splashs/land-ldpi.png" platform="android" qualifier="land-ldpi" />
+    <splash src="splashs/land-mdpi.png" platform="android" qualifier="land-mdpi" />
+    <splash src="splashs/land-hdpi.png" platform="android" qualifier="land-hdpi" />
+    <splash src="splashs/land-xhdpi.png" platform="android" qualifier="land-xhdpi" />
+    <splash src="splashs/land-xxhdpi.png" platform="android" qualifier="land-xxhdpi" />
+    <splash src="splashs/land-xxxhdpi.png" platform="android" qualifier="land-xxxhdpi" />
+    
+
+</widget>

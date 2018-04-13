@@ -1,0 +1,25 @@
+
+<!-- Button trigger modal -->
+<i class="fas fa-bars" style="margin-right: 6px;font-size: 28.5px;" data-toggle="modal" data-target="#menuModal"></i><i id="help" class="fas fa-question-circle" style="font-size: 28.5px;" onclick="showHelp(this.id);"></i>
+
+<!-- Modal -->
+<div class="modal fade" id="menuModal" tabindex="-1" role="dialog" aria-labelledby="menuModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" style="color:#000000;" id="menuModalLongTitle">Spread Setting:</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="text-align: left;">
+        <input type="radio" name="select" value="3" onclick="spreadSetting(this.value)"><span style="font-size: 18px;color:#000000;margin-left:3px">Let me choose three cards</span><br>
+              <input type="radio" name="select" value="5" onclick="spreadSetting(this.value)"><span style="font-size: 18px;color:#000000;margin-left:3px">Let me choose five cards</span> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+

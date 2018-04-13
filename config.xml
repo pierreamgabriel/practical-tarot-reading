@@ -22,7 +22,7 @@
     
     
     <!-- Get rid of the black/gray screen shown before splash screen in every app built on Phonegap/Cordova -->
-    <preference name="SplashScreenDelay" value="10000" />
+    <preference name="SplashScreenDelay" value="5000" />
     <config-file platform="android" parent="/manifest" mode="merge">
     <application android:theme="@android:style/Theme.Translucent.NoTitleBar"></application>
     </config-file>

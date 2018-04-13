@@ -18,7 +18,9 @@
     
     <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
 
-    <preference name="SplashScreen" value="splash"/>
+    
+    <preference name="SplashScreen" value="screen" />
+ <preference name="SplashScreenDelay" value="10000" />
     
     <!-- 
     <preference name="SplashScreenDelay" value="0"/>
@@ -50,5 +52,15 @@
     <splash src="res/screen/android/land-xxhdpi.png" platform="android" qualifier="land-xxhdpi" />
     <splash src="res/screen/android/land-xxxhdpi.png" platform="android" qualifier="land-xxxhdpi" />
    
+    <gap:config-file platform="android" parent="/manifest">
+        <supports-screens 
+            android:xlargeScreens="true" 
+            android:largeScreens="true" 
+            android:smallScreens="true" />
+        <application android:theme="@android:style/Theme.NoTitleBar" >
+            <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            </activity>
+        </application>
+    </gap:config-file>
 
 </widget>

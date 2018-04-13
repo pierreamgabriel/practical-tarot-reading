@@ -14,14 +14,17 @@
     <author href="https://github.com/pierremacedo" email="pierremacedodev@gmail.com">
         Pierre Macedo
     </author>
-    
+
     <preference name='phonegap-version' value='cli-7.0.1' />
     <preference name='pgb-builder-version' value='2' />
-
-    <preference name="SplashScreen" value="splash"/>
+    
     <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
-    <!--<preference name="SplashScreenDelay" value="0"/>
-    <preference name="FadeSplashScreenDuration" value="0"/>-->
+
+    
+    
+    <preference name="SplashScreen" value="none"/>
+    <preference name="SplashScreenDelay" value="0"/>
+    <preference name="FadeSplashScreenDuration" value="0"/>
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
@@ -34,7 +37,7 @@
     
 
     <!-- Define app splash screen for each platform. -->
-    
+    <!--
     <splash src="splash.png" />
     <splash src="splashs/ldpi.png" platform="android" qualifier="ldpi" />
     <splash src="splashs/mdpi.png" platform="android" qualifier="mdpi" />
@@ -48,6 +51,6 @@
     <splash src="splashs/land-xhdpi.png" platform="android" qualifier="land-xhdpi" />
     <splash src="splashs/land-xxhdpi.png" platform="android" qualifier="land-xxhdpi" />
     <splash src="splashs/land-xxxhdpi.png" platform="android" qualifier="land-xxxhdpi" />
-    
+    -->
 
 </widget>

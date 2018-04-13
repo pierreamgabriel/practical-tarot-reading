@@ -17,6 +17,8 @@
 
     
     <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
+            <preference name="SplashScreenDelay" value="3000" />
+
 
     <preference name="SplashScreen" value="splash"/>
     

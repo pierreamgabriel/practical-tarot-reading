@@ -15,6 +15,7 @@
         Pierre Macedo
     </author>
 
+    <preference name="SplashScreen" value="splash" />
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />

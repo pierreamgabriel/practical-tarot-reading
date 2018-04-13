@@ -154,16 +154,24 @@ $('#div-help').addClass('display');
  }    
 }
 
-function onLoad() {
-        document.addEventListener("deviceready", onDeviceReady, false);
-    }
+//Android back button handler methods
+$(document).ready(function()
+{
+document.addEventListener("deviceready", setOverrideBackbutton, false);
+});
 
-    // PhoneGap is loaded and it is now safe to call PhoneGap methods
-    //
-    function onDeviceReady() {
-        // Register the event listener
-        document.addEventListener("backbutton", backKeyDown, false);
-    }
+/**
+* Allow override of the back button on Android platforms
+*/
+function setOverrideBackbutton()
+{
+if (typeof device != "undefined" && device.platform == "Android")
+{
+    navigator.app.overrideBackbutton(true);
+}
+document.addEventListener("backbutton", backKeyDown, true);
+}
+
 
 function backKeyDown() { 
     if (controlback === false){

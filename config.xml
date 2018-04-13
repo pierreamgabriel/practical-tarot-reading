@@ -3,6 +3,7 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap="http://phonegap.com/ns/1.0"
+        xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.practicaltarot.android"
         version   = "1.0.0">
 
@@ -22,7 +23,6 @@
     
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="10000" />
-    <preference name="AutoHideSplashScreen" value="false"/>
     
     
     <!-- 
@@ -55,6 +55,8 @@
     <splash src="res/screen/android/land-xxhdpi.png" platform="android" qualifier="land-xxhdpi" />
     <splash src="res/screen/android/land-xxxhdpi.png" platform="android" qualifier="land-xxxhdpi" />
    
-
+<config-file platform="android" parent="/manifest" mode="merge">
+    <application android:theme="@android:style/Theme.Translucent.NoTitleBar"></application>
+</config-file>
 
 </widget>

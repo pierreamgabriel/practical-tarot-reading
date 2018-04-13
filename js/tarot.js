@@ -157,20 +157,14 @@ $('#div-help').addClass('display');
 //Android back button handler methods
 $(document).ready(function()
 {
-document.addEventListener("deviceready", setOverrideBackbutton, false);
+document.addEventListener("deviceready", onDeviceReady, false);
 });
 
-/**
-* Allow override of the back button on Android platforms
-*/
-function setOverrideBackbutton()
-{
-if (typeof device != "undefined" && device.platform == "Android")
-{
-    navigator.app.overrideBackbutton(true);
-}
-document.addEventListener("backbutton", backKeyDown, true);
-}
+function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", backKeyDown, false);
+    }
+
 
 
 function backKeyDown() { 

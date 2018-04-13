@@ -57,6 +57,6 @@
     <splash src="res/screen/android/drawable-land-xxhdpi-screen.png" platform="android" qualifier="land-xxhdpi" />
     <splash src="res/screen/android/drawable-land-xxxhdpi-screen.png" platform="android" qualifier="land-xxxhdpi" />
     
-    <activity android:launchMode="singleTask">
+    <activity android:launchMode="singleTask" />
     
 </widget>

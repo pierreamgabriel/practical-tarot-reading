@@ -23,6 +23,7 @@
     <!--<preference name="ShowSplashScreenSpinner" value="false" />-->
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <preference name="stay-in-webview" value="false" /> 
+    <preference name="AndroidLaunchMode" value="singleTask" />
     
     
     <!-- Get rid of the black/gray screen shown before splash screen in every app built on Phonegap/Cordova -->
@@ -57,6 +58,5 @@
     <splash src="res/screen/android/drawable-land-xxhdpi-screen.png" platform="android" qualifier="land-xxhdpi" />
     <splash src="res/screen/android/drawable-land-xxxhdpi-screen.png" platform="android" qualifier="land-xxxhdpi" />
     
-    <activity android:launchMode="singleTask" />
     
 </widget>

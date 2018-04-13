@@ -16,13 +16,13 @@ $( "#menu" ).click(function() {
 });
 
 // Opening screen
-/*function fadeOut() {
-$('#first-screen').fadeOut(5000);
+function fadeOut() {
+//$('#first-screen').fadeOut(5000);
 setTimeout(function() {
 $('#second-screen').removeClass('display');
 $('#first-screen').addClass('display');    
-}, 4000);    
-}*/
+}, 5000);    
+}
 
 // Reading starts here
 function thirdScreen(arg) {

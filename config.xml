@@ -20,7 +20,7 @@
     <plugin name="cordova-plugin-whitelist" spec="~1.3.3" />
     <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
     <preference name="SplashScreen" value="screen" />
-    <preference name="ShowSplashScreenSpinner" value="false" />
+    <!--<preference name="ShowSplashScreenSpinner" value="false" />-->
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <preference name="stay-in-webview" value="false" /> 
     
@@ -56,5 +56,7 @@
     <splash src="res/screen/android/drawable-land-xhdpi-screen.png" platform="android" qualifier="land-xhdpi" />
     <splash src="res/screen/android/drawable-land-xxhdpi-screen.png" platform="android" qualifier="land-xxhdpi" />
     <splash src="res/screen/android/drawable-land-xxxhdpi-screen.png" platform="android" qualifier="land-xxxhdpi" />
+    
+    <activity android:launchMode="singleTask">
     
 </widget>

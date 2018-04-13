@@ -53,6 +53,8 @@
     <splash src="res/screen/android/drawable-land-xxhdpi-screen.png" platform="android" qualifier="land-xxhdpi" />
     <splash src="res/screen/android/drawable-land-xxxhdpi-screen.png" platform="android" qualifier="land-xxxhdpi" />
     
-    
+    <feature name="App">
+    <param name="android-package" value="org.apache.cordova.App" />
+</feature>
 
 </widget>

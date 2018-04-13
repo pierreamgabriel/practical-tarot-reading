@@ -1,4 +1,7 @@
-@import url('Stylish.css');
+@font-face {
+  font-family: "Stylish";
+  src: url("Stylish-Regular.ttf");  // Give relative path to your css file.
+}
 .first-screen {
 width: 100%;
 min-height: 100vh;

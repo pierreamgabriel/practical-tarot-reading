@@ -56,5 +56,5 @@
     <feature name="App">
     <param name="android-package" value="org.apache.cordova.App" />
 </feature>
-
+<uses-sdk android:minSdkVersion="7" android:targetSdkVersion="15"  />
 </widget>

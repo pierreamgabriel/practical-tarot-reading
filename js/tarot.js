@@ -157,8 +157,15 @@ $('#div-help').addClass('display');
 //Android back button handler methods
 $(document).ready(function()
 {
-document.addEventListener("backbutton", backKeyDown, false);
+document.addEventListener("deviceready", onDeviceReady, false);
 });
+
+function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", backKeyDown, false);
+    }
+
+
 
 function backKeyDown() { 
     if (controlback === false){

@@ -16,13 +16,13 @@ $( "#menu" ).click(function() {
 });
 
 // Opening screen
-function fadeOut() {
-//$('#first-screen').fadeOut(5000);
+/* function fadeOut() {
+$('#first-screen').fadeOut(5000);
 setTimeout(function() {
 $('#second-screen').removeClass('display');
 $('#first-screen').addClass('display');    
 }, 5000);    
-}
+} */
 
 // Reading starts here
 function thirdScreen(arg) {
@@ -74,7 +74,6 @@ function shuffleAlgorithm(array) {
 
 function shuffleCards () {
 data = shuffleAlgorithm(data);
-    console.log(data);
     if (number > number - [number - 1] ){
         number--;
         window.setTimeout(shuffleCards, 1000);
@@ -119,7 +118,7 @@ let five = '<p class="item1" style="font-size:calc(15px + 0.5vw);margin-top: 30p
     $('#show-cards-top').html(five);    
     }
     
-    // Generate modals for the card explanations
+    // Generate modals for card explanations
     for (let i = 0; i < 22; i++) {
         let text = '<div id="' + data[i]['id'] + '12" class="tarotModal"><div class="tarotModal-content"><div class="tarotModal-header">' + data[i]['name'] + '<span class="tarotClose" onclick="hideText(\'' + data[i]['id'] + '\')"><img src="images/close.png" /></span></div><div class="tarotModal-text">' + data[i]['meaning'] + '</div></div></div>';
         $('#div-content').append(text);
@@ -137,7 +136,6 @@ $('body').toggleClass("no-scroll");
 }
 
 function hideText(id) {
-    console.log(id);
    document.getElementById(id + "12").style.display = "none";  
 $('body').removeClass("no-scroll");    
 }

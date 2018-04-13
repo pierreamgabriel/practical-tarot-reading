@@ -160,13 +160,17 @@ document.addEventListener("deviceready", onDeviceReady, false);
 function onDeviceReady(){
     document.addEventListener("backbutton", backKeyDown, false);
 }
-function backKeyDown() { 
+function backKeyDown(answer) { 
     if (controlback === false){
-    $('#warning').dialog();    
+    $('#warning').dialog({dialogClass: "no-close"});    
     }
     if (controlback === true){
     $('#content').removeClass('display');
-    $('#div-help').addClass('display');      
+    $('#div-help').addClass('display');  
+    controlback = false;    
+    }
+    if (answer === "no"){
+    $( "#warning" ).dialog( "close" );    
     }
 }
 function exitApp() {

@@ -20,11 +20,11 @@
     
     <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
 
+    <preference name="SplashScreen" value="splash"/>
     
-    
-    <preference name="SplashScreen" value="none"/>
+    <!-- 
     <preference name="SplashScreenDelay" value="0"/>
-    <preference name="FadeSplashScreenDuration" value="0"/>
+    <preference name="FadeSplashScreenDuration" value="0"/>-->
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
@@ -37,20 +37,20 @@
     
 
     <!-- Define app splash screen for each platform. -->
-    <!--
+    
     <splash src="splash.png" />
-    <splash src="splashs/ldpi.png" platform="android" qualifier="ldpi" />
-    <splash src="splashs/mdpi.png" platform="android" qualifier="mdpi" />
-    <splash src="splashs/hdpi.png" platform="android" qualifier="hdpi" />
-    <splash src="splashs/xhdpi.png" platform="android" qualifier="xhdpi" />
-    <splash src="splashs/xxhdpi.png" platform="android" qualifier="xxhdpi" />
-    <splash src="splashs/xxxhdpi.png" platform="android" qualifier="xxxhdpi" />
-    <splash src="splashs/land-ldpi.png" platform="android" qualifier="land-ldpi" />
-    <splash src="splashs/land-mdpi.png" platform="android" qualifier="land-mdpi" />
-    <splash src="splashs/land-hdpi.png" platform="android" qualifier="land-hdpi" />
-    <splash src="splashs/land-xhdpi.png" platform="android" qualifier="land-xhdpi" />
-    <splash src="splashs/land-xxhdpi.png" platform="android" qualifier="land-xxhdpi" />
-    <splash src="splashs/land-xxxhdpi.png" platform="android" qualifier="land-xxxhdpi" />
-    -->
+    <splash src="res/screen/android/ldpi.png" platform="android" qualifier="ldpi" />
+    <splash src="res/screen/android/mdpi.png" platform="android" qualifier="mdpi" />
+    <splash src="res/screen/android/hdpi.png" platform="android" qualifier="hdpi" />
+    <splash src="res/screen/android/xhdpi.png" platform="android" qualifier="xhdpi" />
+    <splash src="res/screen/android/xxhdpi.png" platform="android" qualifier="xxhdpi" />
+    <splash src="res/screen/android/xxxhdpi.png" platform="android" qualifier="xxxhdpi" />
+    <splash src="res/screen/android/land-ldpi.png" platform="android" qualifier="land-ldpi" />
+    <splash src="res/screen/android/land-mdpi.png" platform="android" qualifier="land-mdpi" />
+    <splash src="res/screen/android/land-hdpi.png" platform="android" qualifier="land-hdpi" />
+    <splash src="res/screen/android/land-xhdpi.png" platform="android" qualifier="land-xhdpi" />
+    <splash src="res/screen/android/land-xxhdpi.png" platform="android" qualifier="land-xxhdpi" />
+    <splash src="res/screen/android/land-xxxhdpi.png" platform="android" qualifier="land-xxxhdpi" />
+   
 
 </widget>

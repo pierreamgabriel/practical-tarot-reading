@@ -23,7 +23,7 @@
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="10000" />
     <preference name="AutoHideSplashScreen" value="false"/>
-    <gap:plugin name="org.apache.cordova.splashscreen" />
+    
     
     <!-- 
     <preference name="SplashScreenDelay" value="0"/>

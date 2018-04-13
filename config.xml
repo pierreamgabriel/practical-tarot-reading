@@ -19,6 +19,7 @@
 
     <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
     <preference name="SplashScreen" value="screen" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
     
     
     <!-- Get rid of the black/gray screen shown before splash screen in every app built on Phonegap/Cordova -->

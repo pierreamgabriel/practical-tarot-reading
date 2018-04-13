@@ -158,7 +158,7 @@ $('#div-help').addClass('display');
 document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady(){
-    alert("working");
+    document.addEventListener("backbutton", backKeyDown, false);
 }
 function backKeyDown() { 
     if (controlback === false){

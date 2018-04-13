@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/critical.css">
   <link rel='stylesheet prefetch' href='bs/bootstrap.min.css'>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/jquery-ui.min.css">    
   
 </head>
 
@@ -20,7 +21,7 @@
 </div>
 </div>-->
 
-<body>
+<body onload="onLoad()">
 <div id="second-screen" class="container-fluid">
 <div class="row">
 <div class="col-sm-12 header"><img class="header-image" src="images/header.jpg" /></div>
@@ -33,11 +34,13 @@
 </div>
 </div>
 </div>
+<div id="warning" style="display: none"></div>    
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/tarot.js"></script>
     <script src="bs/popper.min.js"></script>
     <script src="bs/bootstrap.min.js"></script>
     <script src="js/fontawesome-all.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
     
 </body>
 </html>

@@ -2,6 +2,7 @@ let number = "";
 let cards = [];
 let data;
 let spread = 3;
+let controlback = false;
 
 function spreadSetting(value){
     spread = value;
@@ -143,6 +144,7 @@ $('body').removeClass("no-scroll");
 // Help section
 function showHelp(arg) {
     if (arg === 'help'){
+controlback = true;        
 $('#content').addClass('display');
 $('#div-help').removeClass('display').load("components/help.html");    
         }
@@ -152,4 +154,26 @@ $('#div-help').addClass('display');
  }    
 }
 
+function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
 
+    // PhoneGap is loaded and it is now safe to call PhoneGap methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", backKeyDown, false);
+    }
+
+function backKeyDown() { 
+    if (controlback === false){
+    $('#warning').dialog();    
+    }
+    if (controlback === true){
+    $('#content').removeClass('display');
+    $('#div-help').addClass('display');      
+    }
+}
+function exitApp() {
+    navigator.app.exitApp();
+}

@@ -121,7 +121,7 @@ let five = '<p class="item1" style="font-size:calc(15px + 0.5vw);margin-top: 30p
     
     // Generate modals for card explanations
     for (let i = 0; i < 22; i++) {
-        let text = '<div id="' + data[i]['id'] + '12" class="tarotModal"><div class="tarotModal-content"><div class="tarotModal-header">' + data[i]['name'] + '<span class="tarotClose" onclick="hideText(\'' + data[i]['id'] + '\')"><img src="images/close.png" /></span></div><div class="tarotModal-text">' + data[i]['meaning'] + '</div></div></div>';
+        let text = '<div id="' + data[i]['id'] + '12" class="tarotModal"><div class="tarotModal-content"><div class="tarotModal-header">' + data[i]['name'] + '<span class="tarotClose" onclick="hideText(\'' + data[i]['id'] + '\')"><img src="images/close.png" /></span></div><div class="tarotModal-text">' + data[i]['meaning'] + '</div><div style="text-align:right;font-size:calc(12px + 0.5vw);color: #000000;margin: 0px 10px 10px 0px">Source: biddytarot.com</div></div></div>';
         $('#div-content').append(text);
         
         

@@ -1,36 +1,22 @@
 
 <div>
-<img id="outhelp" style="margin-top: -45px;display: inline;" src="images/goback.png" onclick="showHelp(this.id);" /><i class="fas fa-bars" style="float:right;margin-top:-20px;color:white;font-size:28px;" data-toggle="modal" data-target="#menuModal2"></i>
+<img id="outhelp" style="margin-top: -45px;display: inline;" src="images/goback.png" onclick="showHelp(this.id);" /></i>
 </div>
 <div style="padding-right:5px;padding-left:5px;">
-<p class="item1">How does this app work?</p>
+    
+<p class="item1">How does this app work?</p>    
 <p>To start a reading you are required to intuitively select a number between 1 and 9 after formulating your question in your mind. This process basically tells the app how many times it must shuffle the cards before letting you choose three of them. It's similar to what happens with a physical deck, when the tarot reader or their client shuffle the deck until they feel the cards are well mixed. It's important to point that the algorithm used here guarantees a completely random shuffling without any pre-established order, in other words, the universe or the gods are free to manipulate how the cards will be presented to you.</p>
-<p class="item2">What is a spread?</p>
-<p>It's simply the way you read the cards. A three cards spread generally shows the past, present and the future. A five cards spread generally shows the past, recent past, present, near future, and future. To switch between these two spreads, click on the button <img src="images/menu.png" style="display: inline;" /> in the top right corner. </p>
-<p class="item3">Can I ask the same question twice?</p>
+    
+<p class="item2">What is a spread?</p>    
+<p>It's simply the way you read the cards. A three cards spread generally shows the past, present and the future. A five cards spread generally shows the past, recent past, present, near future, and future. To switch between these two spreads, click on the button <img src="images/menu.png" style="display: inline;" /> in the bottom right corner. </p>
+    
+<p class="item3">Can I ask the same question twice?</p>    
 <p>You shouldn't ask the same thing before at least 30 days. Bear in mind the answer you received is the absolute one because the cards don't lie. So instead of trying to get a different answer, analyse your current situation and try to change what can be changed.</p>
+    
 <p class="item1">Can I ask yes or no questions?</p>
-    <p>The short answer is no. It's because the universe isn't binary and we can't say if something will or won't happen without taking the whole conjuncture into account.</p>
-    <p class="item2">I am a developer, how can I contribute to this project?</p><p>The source code of the Practical Tarot Reading app can be found here <a style="color: #ffffff;"href="https://github.com/pierremacedo/practical-tarot-reading">https://github.com/pierremacedo/practical-tarot-reading</a></p>
+<p>The short answer is no. It's because the universe isn't binary and we can't say if something will or won't happen without taking the whole conjuncture into account.</p>
+    
+<p class="item2">I am a developer, how can I contribute to this project?</p>
+<p>The source code of the Practical Tarot Reading app can be found here <a style="color: #ffffff;"href="https://github.com/pierremacedo/practical-tarot-reading">https://github.com/pierremacedo/practical-tarot-reading</a></p>
 </div>
 
-<!-- Modal -->
-<div class="modal fade" id="menuModal2" tabindex="-1" role="dialog" aria-labelledby="menuModal2CenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" style="color:#000000;" id="menuModal2LongTitle">Spread Setting:</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body" style="text-align: left;">
-        <input type="radio" name="select" value="3" onclick="spreadSetting(this.value)"><span style="font-size: 18px;color:#000000;margin-left:3px">Let me choose three cards</span><br>
-    <input type="radio" name="select" value="5" onclick="spreadSetting(this.value)"><span style="font-size: 18px;color:#000000;margin-left:3px">Let me choose five cards</span>  
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>

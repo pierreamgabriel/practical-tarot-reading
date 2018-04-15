@@ -2,6 +2,9 @@
   font-family: "Stylish";
   src: url("Stylish-Regular.ttf");  // Give relative path to your css file.
 }
+body {
+background-image: url("../images/texture.jpg");    
+}
 .first-screen {
 width: 100%;
 min-height: 100vh;
@@ -9,10 +12,24 @@ padding-top: 80px;
 text-align: center;    
 background-image: url("../images/texture.jpg");    
 }
+#header {
+width: 100%;
+position: fixed;
+top: 0;
+z-index: 1041;    
+}
+#footer {
+font-family: 'Stylish', sans-serif;    
+height: 100%;
+min-width: 100vw;    
+position: sticky;
+bottom: 0;
+z-index:1041;    
+}
 .header {
 height: 100%;
 background: #00086b;
-text-align: center;  
+text-align: center;      
 }
 .header-image{
 max-width: 40vw;
@@ -20,30 +37,29 @@ min-width: 260px;
 height: auto; 
 display: inline;    
 }
-.menu-div {
-display: none;
-width: 150px;
-background: #ffffff;
-border-radius: 2px;    
-position: absolute;
-margin-left: 81%; 
-margin-top: 2px;    
+#menu {
+color: #ffffff;   
+text-align: right;
+padding-top: 3px; 
+bottom: 0;
+margin-bottom: -1px;    
+background: #00086b;  
+position: fixed;    
 }
-.menu-icon {
-float: right;
-display: inline;
-margin-right: 3px;
-margin-top: 5px;    
+.sticky {
+position: sticky;    
+}
+.second-screen-main {
+margin-top: calc(40px + 4.2%);    
 }
 .second-screen {
 font-family: 'Stylish', sans-serif;
 color: white;
 font-size: calc(15px + 1vw);
-background: #233160;
-background-image: url("../images/texture.jpg");    
 width: 100%;
 min-height: 100vh;
-text-align: center;    
+text-align: center; 
+padding-bottom: 40px;    
 }
 .item1 {
 background: purple;
@@ -135,62 +151,6 @@ display: none;
 .meaning { 
 padding-top: 10px;    
 }
-
- /* The Modal (background) */
-.tarotModal {
-display: none; /* Hidden by default */
-position: fixed; /* Stay in place */
-z-index: 1; /* Sit on top */
-left: 0;
-top: 0;
-width: 100%; /* Full width */
-height: 100%; /* Full height */
-overflow: auto; /* Enable scroll if needed */
-background-color: rgb(0,0,0); /* Fallback color */
-background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* Modal Content/Box */
-.tarotModal-content {
-background-color: #fefefe;
-margin: 15% auto; /* 15% from the top and centered */
-background-clip: padding-box;
-border: 1px solid rgba(0,0,0,.2);
-border-radius: .3rem;
-width: 80%; /* Could be more or less, depending on screen size */
-}
-.tarotModal-header {
-padding: 2px 16px;    
-background: #fafafa;
-border-bottom: #e9ecef 1px solid; 
-border-top-left-radius: .3rem;
-border-top-right-radius: .3rem;    
-color: #000000;
-font-size: 25px;   
-    
-}
-.tarotModal-text {
-font-size:calc(12px + 0.5vw);
-color: #000000;
-margin: 10px 10px 10px 10px;  
-text-align: justify;    
-}
-
-/* The Close Button */
-.tarotClose {
-float: right;
-margin-bottom: 2px;    
-}
-.tarotClose:hover,
-.tarotClose:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-} 
 .no-scroll {
-overflow-y: hidden;
+position: fixed;    
 }
-.no-close .ui-dialog-titlebar-close {
-  display: none !important;
-}
-

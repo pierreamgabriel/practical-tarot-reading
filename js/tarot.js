@@ -33,6 +33,7 @@ document.getElementById("div-content").innerHTML='<div class="instruction-title"
 function getId(id){
     number = id;
     $('#second-screen').removeClass('second-screen-main'); //remove margin-top to keep shuffle.gif centralized 
+    $('#content').css('min-height', '100vh');   
     document.getElementById("div-content").innerHTML='<div id="shuffle"><img class="shuffling" src="images/shuffle.gif" /></div>';
     cards = [];
     getData();
@@ -55,7 +56,8 @@ function getData(){
             }else {
               changeN = "five";  
             }   
-        $('#second-screen').addClass('second-screen-main');   
+        $('#second-screen').addClass('second-screen-main');  
+        $('#content').css('min-height', '');     
         document.getElementById("div-content").innerHTML='<div id="show-cards"><div id="show-cards-top"><p style="font-size: calc(20px + 1.5vw);text-align:center;margin-top: 10px;margin-bottom: 10px">Choose ' + changeN + ' cards</p></div><div id="cards"></div><div><button type="button" class="btn btn-outline-primary" style="margin-top: 10px;color:#ffffff" id="newq" onclick="thirdScreen(this.id);">Ask another question</button></div></div>';   
         showCards();
     }, number + [100 + 10]);    

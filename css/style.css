@@ -57,7 +57,7 @@ font-family: 'Stylish', sans-serif;
 color: white;
 font-size: calc(15px + 1vw);
 width: 100%;
-min-height: 100vh;
+height: 100%;
 text-align: center; 
 padding-bottom: 40px;    
 }

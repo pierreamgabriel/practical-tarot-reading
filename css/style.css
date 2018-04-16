@@ -154,3 +154,12 @@ padding-top: 10px;
 .no-scroll {
 position: fixed;    
 }
+.modal2 {
+overflow-y: hidden !important;    
+}
+.modal-content2 {
+height: 95vh !important;    
+}
+.modal-body2 {
+overflow-y: auto !important;    
+}

@@ -7,4 +7,4 @@ Read Tarot without a physical deck. Practical Tarot Reading uses the 22 Major Ar
 *Includes instructions on how to make better questions in order to get better answers from the oracle.  
 
 
-This app is FREE. Consider making a donation to support its development https:www.paypal.comcgi-binwebscr?cmd=_s-xclick&hosted_button_id=9NV9LUT2CZ9DL
+This app is FREE. Consider making a donation to support its development https://www.paypal.comcgi-binwebscr?cmd=_s-xclick&hosted_button_id=9NV9LUT2CZ9DL

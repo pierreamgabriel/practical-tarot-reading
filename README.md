@@ -6,4 +6,11 @@ Read Tarot without a physical deck. Practical Tarot Reading uses the 22 Major Ar
 *The cards chosen by the user are shown on the screen in the order they were selected, from left to right.  
 *Includes instructions on how to make better questions in order to get better answers from the oracle.  
 
+## Screenshots
+<p align="center">
+<img src="https://raw.githubusercontent.com/pierremacedo/practical-tarot-reading/master/screenshots/splashscreen.png" height="350" title="splash screen">
+<img src="https://raw.githubusercontent.com/pierremacedo/practical-tarot-reading/master/screenshots/quicknotes.png" height="350" title="quick notes">
+<img src="https://raw.githubusercontent.com/pierremacedo/practical-tarot-reading/master/screenshots/instructions.png" height="350" title="instructions">  
+<img src="https://raw.githubusercontent.com/pierremacedo/practical-tarot-reading/master/screenshots/results.png" height="350" title="results">  
+</p>
 

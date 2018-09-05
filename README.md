@@ -4,7 +4,11 @@ Read Tarot without a physical deck. Practical Tarot Reading uses the 22 Major Ar
 
 *Two spread modes available: 3 or 5 cards.  
 *The cards chosen by the user are shown on the screen in the order they were selected, from left to right.  
-*Includes instructions on how to make better questions in order to get better answers from the oracle.  
+*Includes instructions on how to make better questions in order to get better answers from the oracle. 
+
+## Installation
+
+You can install the app on your android device downloading the latest apk file here https://github.com/pierremacedo/practical-tarot-reading/releases
 
 ## Screenshots
 <p align="center">

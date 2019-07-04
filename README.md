@@ -1,6 +1,6 @@
 # Practical Tarot Reading
 
-Read Tarot without a physical deck. Practical Tarot Reading uses the 22 Major Arcana to answer questions just like a traditional reading, but better. Our shuffling algorithm guarantees a completely random shuffling, in other words, it's impossible to predict or control how the cards will be presented on the screen, and that's what makes this app 100% accurate.
+Read Tarot without a physical deck. Practical Tarot Reading uses the 22 Major Arcana to answer questions just like a traditional reading, but better. Our shuffling algorithm guarantees a completely random shuffling, in other words, it's impossible to predict or control how the cards will be presented on the screen, and that's what makes this app so accurate.
 
 *Two spread modes available: 3 or 5 cards.  
 *The cards chosen by the user are shown on the screen in the order they were selected, from left to right.  

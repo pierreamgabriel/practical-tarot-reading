@@ -8,7 +8,7 @@ Read Tarot without a physical deck. Practical Tarot Reading uses the 22 Major Ar
 
 ## Download
 
-You can install the app on your android device downloading the latest apk file here https://github.com/pierremacedo/practical-tarot-reading/releases/download/v1.2/Practical-Tarot-Reading-1.2.apk
+You can install the app on your Android device downloading the latest apk file here https://github.com/pierremacedo/practical-tarot-reading/releases/download/v1.2/Practical-Tarot-Reading-1.2.apk
 
 ## Screenshots
 <p align="center">

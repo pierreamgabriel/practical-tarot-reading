@@ -1,3 +1,5 @@
+All rights reserved. I released an improved and commercial version of this app. You can still read the code in this repository, but you cannot use it.  
+
 # Practical Tarot Reading
 
 Practical Tarot Reading uses the 22 Major Arcana to answer questions just like a traditional reading, but better. Our shuffling algorithm guarantees a completely random shuffling. In other words, it's impossible to know how the cards will be presented on the screen, and that's what makes this app so accurate.

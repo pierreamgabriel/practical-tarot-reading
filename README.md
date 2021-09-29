@@ -1,4 +1,4 @@
-All rights reserved. I released an improved and commercial version of this app. You can still read the code in this repository, but you cannot use it.  
+© All rights reserved  
 
 # Practical Tarot Reading
 

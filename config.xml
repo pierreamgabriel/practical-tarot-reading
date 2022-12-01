@@ -13,8 +13,8 @@
         Practical Tarot Reading is an app that lets you to use Tarot directly from your device without a physical deck.
     </description>
 
-    <author href="https://github.com/pierremacedo" email="pierremacedodev@gmail.com">
-        Pierre Macedo
+    <author href="https://github.com/pierreamgabriel" email="pierregabrieldev@gmail.com">
+        Pierre Gabriel
     </author>
     
     <plugin name="cordova-plugin-whitelist" spec="~1.3.3" />
